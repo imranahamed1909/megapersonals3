@@ -18,7 +18,7 @@ function SecurityModal() {
   };
 
   const handleSubmit = async (values, formik) => {
-    // console.log(values);
+    console.log(values);
     // const { skipcode } = values;
     // Cookies.set("skipcode", skipcode);
     // router.push("/account/email");
