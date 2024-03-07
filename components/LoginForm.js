@@ -5,12 +5,10 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 function LoginForm({ setShowModal }) {
-  // const [showWrongPassword, setShowWrongPassword] = useState(false);
 
   const initialvalues = {
     email: "",
     password: "",
-    // wrongPassword: "",
     remember: "",
   };
 
@@ -64,7 +62,7 @@ function LoginForm({ setShowModal }) {
                   <Field
                     className="mt-5 w-full text-lg  px-[8px] py-[7px] outline-none border border-slate-300 shadow-inner placeholder:font-medium placeholder:text-black/50"
                     placeholder="Password"
-                    name="wrongPassword"
+                    name="password"
                     type="password"
                     autoComplete="on"
                     required
